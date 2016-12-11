@@ -1,4 +1,4 @@
-- [Postgres][#postgres]
+- [postgres][#postgres]
 
 ### <a name="postgres"></a>Postgres
 
