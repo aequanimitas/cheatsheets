@@ -15,6 +15,11 @@
 - adding user/role: ```create user name with password 'pass_word'```, take note of single quotes
 - reset auto-increment column:  ```alter sequence authors_id_seq restart with 1;```
 
+#### install via homebrew
+- ```$ brew install postgresql```
+- you can clear old db or transfer to new db
+- ```$ createdb```
+
 ### <a name="tmux"></a>Tmux
 - start new: ```tmux $(basename $(pwd))```
 - list session names: ```tmux ls```
