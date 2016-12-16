@@ -14,6 +14,7 @@
 
 - adding user/role: ```create user name with password 'pass_word'```, take note of single quotes
 - reset auto-increment column:  ```alter sequence authors_id_seq restart with 1;```
+- add current date to query result: ```with tt as (select cast(require_time as time) from reward where name='vape') select current_date + require_time from tt;```
 
 #### install via homebrew
 - ```$ brew install postgresql```
