@@ -5,6 +5,8 @@
 
 ### <a name="git"></a>Git
 - checkout file from one branch to current: ```git checkout sourcebranch -- file.name```
+- reverse log: ```git log --reverse```
+- search by commit message: ```git log --grep=<term>```
 
 ### <a name="mit-scheme"></a>mit-scheme
 - loading files: ```(load "filename")```
